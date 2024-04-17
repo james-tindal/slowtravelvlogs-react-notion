@@ -12,11 +12,8 @@ export const PageHead: React.FC<
     image?: string
     url?: string
   }
-> = ({ site, title, description, pageId, image, url }) => {
+> = ({ site, title = site?.name, description = site?.description, pageId, image, url }) => {
   const rssFeedUrl = `${config.host}/feed`
-
-  title = title ?? site?.name
-  description = description ?? site?.description
 
   const socialImageUrl = getSocialImageUrl(pageId) || image
 

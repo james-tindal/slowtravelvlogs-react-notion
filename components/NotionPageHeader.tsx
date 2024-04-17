@@ -1,5 +1,3 @@
-import * as React from 'react'
-
 import * as types from 'notion-types'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
@@ -10,16 +8,17 @@ import { isSearchEnabled, navigationLinks, navigationStyle } from '@/lib/config'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import styles from './styles.module.css'
+import { useCallback, useEffect, useState } from 'react'
 
 const ToggleThemeButton = () => {
-  const [hasMounted, setHasMounted] = React.useState(false)
+  const [hasMounted, setHasMounted] = useState(false)
   const { isDarkMode, toggleDarkMode } = useDarkMode()
 
-  React.useEffect(() => {
+  useEffect(() => {
     setHasMounted(true)
   }, [])
 
-  const onToggleTheme = React.useCallback(() => {
+  const onToggleTheme = useCallback(() => {
     toggleDarkMode()
   }, [toggleDarkMode])
 

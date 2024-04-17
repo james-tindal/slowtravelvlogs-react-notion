@@ -58,5 +58,25 @@ body {
 }
 
 ::-webkit-scrollbar-track {           
-    background-color: var(--bg-color);
+  background-color: var(--bg-color);
 }
+
+/* END style from template */
+
+
+body { font-family: ui-sans-serif }
+h1, .notion-nav-header .breadcrumb { font-family: Didot }
+h1.notion-title {
+  font-size: 44.8px;
+  font-weight: normal;
+}
+iframe { overflow: hidden }
+.notion-asset-wrapper iframe { background-color: unset }
+.dark-mode {
+  --bg-color: #191919;
+  --fg-color: #FFFC
+}
+:root {
+  --notion-max-width: 740px
+}
+.notion-frame { padding: 0 }

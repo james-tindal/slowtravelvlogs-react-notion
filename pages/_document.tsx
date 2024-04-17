@@ -9,7 +9,6 @@ export default class MyDocument extends Document {
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <Html lang='en'>
           <Head>
-            <link rel='shortcut icon' href='/favicon.ico' />
             <link
               rel='icon'
               type='image/png'
@@ -18,6 +17,9 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
+            
+            <link href="https://fonts.googleapis.com/css?family=Didot:Regular&amp;display=swap" rel="stylesheet" />
+            <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="WLTG3SP"></script>
           </Head>
 
           <body>
