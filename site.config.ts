@@ -1,4 +1,4 @@
-import { isSearchEnabled } from './lib/config'
+// import { isSearchEnabled } from './lib/config'
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
