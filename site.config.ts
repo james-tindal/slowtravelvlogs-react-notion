@@ -58,7 +58,9 @@ export default siteConfig({
     '/trakai': 'd45f2cd0533c498d8aa68ec2013e72d7',
     '/cambridge': '511835c1b9f647c7bc8b5a1fc5f08d9a',
     '/folkestone': '2942de7350ed4d8abe38f450f2f4327b',
-    '/fes': '7e1053e02163482f82deb4c6e2bf3506'
+    '/fes': '7e1053e02163482f82deb4c6e2bf3506',
+    '/travel-essentials': '1571f45206d94e15b236c05ded0c7d34',
+    '/chefchaouen': 'b69ac66dcf7140fb94f947a628e2892a'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
