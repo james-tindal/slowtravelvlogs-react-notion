@@ -80,3 +80,4 @@ iframe { overflow: hidden }
   --notion-max-width: 740px
 }
 .notion-frame { padding: 0 }
+.notion-injected-html { width: 100% }
