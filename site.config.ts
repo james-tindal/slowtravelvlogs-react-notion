@@ -60,7 +60,8 @@ export default siteConfig({
     '/folkestone': '2942de7350ed4d8abe38f450f2f4327b',
     '/fes': '7e1053e02163482f82deb4c6e2bf3506',
     '/travel-essentials': '1571f45206d94e15b236c05ded0c7d34',
-    '/chefchaouen': 'b69ac66dcf7140fb94f947a628e2892a'
+    '/chefchaouen': 'b69ac66dcf7140fb94f947a628e2892a',
+    '/tangier': 'f6df6faa61b24c2cbd98f53fec20c692'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
