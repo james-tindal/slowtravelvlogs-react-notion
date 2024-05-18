@@ -36,7 +36,7 @@ export interface SiteConfig {
 }
 
 export interface NavigationLink {
-  title: string
+  title: string | JSX.Element
   pageId?: string
   url?: string
 }
