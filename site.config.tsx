@@ -1,6 +1,11 @@
 // import { isSearchEnabled } from './lib/config'
 import { siteConfig } from './lib/site-config'
 
+import { FiYoutube } from 'react-icons/fi'
+import { HiOutlineMail } from 'react-icons/hi';
+import { BiHomeAlt } from 'react-icons/bi';
+import { FaInstagram } from 'react-icons/fa'
+
 export default siteConfig({
   // the site's root Notion page (required)
   rootNotionPageId: 'ee94bce9c306401aba07ede45e6930ba',
@@ -68,16 +73,24 @@ export default siteConfig({
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
   // navigationStyle: 'default',
   navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ],
+  navigationLinks: [
+    {
+      title: <BiHomeAlt size={16} title="Home" />,
+      pageId: 'ee94bce9c306401aba07ede45e6930ba'
+    },
+    {
+      title: <FiYoutube size={16} title="Youtube" />,
+      url: 'https://youtube.com/@slowtravelvlogs'
+    },
+    {
+      title: <FaInstagram size={16} title="Instagram" />,
+      url: 'http://www.instagram.com/slowtravelvlogs'
+    },
+    {
+      title: <HiOutlineMail size={16} title="Contact me" />,
+      url: 'https://tally.so/r/n0x9pj'
+    }
+  ],
 
   isSearchEnabled: false
 })
