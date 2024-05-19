@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  react-icons@5.2.1:
+    hash: cdiaxnxak53pidpgmwhvsxtfzy
+    path: patches/react-icons@5.2.1.patch
+
 importers:
 
   .:
@@ -73,7 +78,7 @@ importers:
         version: 18.2.0(react@18.2.0)
       react-icons:
         specifier: ^5.2.1
-        version: 5.2.1(react@18.2.0)
+        version: 5.2.1(patch_hash=cdiaxnxak53pidpgmwhvsxtfzy)(react@18.2.0)
       react-notion-x:
         specifier: ^6.15.6
         version: 6.16.0(@babel/runtime@7.24.4)(@types/react@18.2.79)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(webpack@5.91.0)
@@ -6131,7 +6136,7 @@ snapshots:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
-  react-icons@5.2.1(react@18.2.0):
+  react-icons@5.2.1(patch_hash=cdiaxnxak53pidpgmwhvsxtfzy)(react@18.2.0):
     dependencies:
       react: 18.2.0
 
