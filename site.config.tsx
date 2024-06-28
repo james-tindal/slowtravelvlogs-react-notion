@@ -67,7 +67,8 @@ export default siteConfig({
     '/travel-essentials': '1571f45206d94e15b236c05ded0c7d34',
     '/chefchaouen': 'b69ac66dcf7140fb94f947a628e2892a',
     '/tangier': 'f6df6faa61b24c2cbd98f53fec20c692',
-    '/tarifa': 'e6e74c8a1dac4c709e588e7999c0e608'
+    '/tarifa': 'e6e74c8a1dac4c709e588e7999c0e608',
+    '/gibraltar': '8360b11c49b04c9290d8dee8de4ebc6b'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
