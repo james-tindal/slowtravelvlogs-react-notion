@@ -68,7 +68,8 @@ export default siteConfig({
     '/chefchaouen': 'b69ac66dcf7140fb94f947a628e2892a',
     '/tangier': 'f6df6faa61b24c2cbd98f53fec20c692',
     '/tarifa': 'e6e74c8a1dac4c709e588e7999c0e608',
-    '/gibraltar': '8360b11c49b04c9290d8dee8de4ebc6b'
+    '/gibraltar': '8360b11c49b04c9290d8dee8de4ebc6b',
+    '/zadar': '38a73679053440bd8c6402a066658495'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
