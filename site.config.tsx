@@ -70,7 +70,8 @@ export default siteConfig({
     '/tarifa': 'e6e74c8a1dac4c709e588e7999c0e608',
     '/gibraltar': '8360b11c49b04c9290d8dee8de4ebc6b',
     '/zadar': '38a73679053440bd8c6402a066658495',
-    '/telascica': '05c27ffeaff44f01b581b5b1308fa983'
+    '/telascica': '05c27ffeaff44f01b581b5b1308fa983',
+    '/krka': '7c26757fade84de3a15b64d1b81d235a'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
