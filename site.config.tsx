@@ -73,7 +73,8 @@ export default siteConfig({
     '/telascica': '05c27ffeaff44f01b581b5b1308fa983',
     '/krka': '7c26757fade84de3a15b64d1b81d235a',
     '/split': '767232d7a11c421e97b45e99ecce46c0',
-    '/klis-fortress': '2b9fb6ebc6d242e68b86c5a664791d75'
+    '/klis-fortress': '2b9fb6ebc6d242e68b86c5a664791d75',
+    '/island-hopping-split': '4d67942c858f4fd489b7dacae6266399'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
