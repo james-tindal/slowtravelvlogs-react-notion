@@ -74,7 +74,8 @@ export default siteConfig({
     '/krka': '7c26757fade84de3a15b64d1b81d235a',
     '/split': '767232d7a11c421e97b45e99ecce46c0',
     '/klis-fortress': '2b9fb6ebc6d242e68b86c5a664791d75',
-    '/island-hopping-split': '4d67942c858f4fd489b7dacae6266399'
+    '/island-hopping-split': '4d67942c858f4fd489b7dacae6266399',
+    '/istanbul': '771c2d92561b44198f3f53ec28888728',
   },
 
   // whether to use the default notion navigation style or a custom one with links to
