@@ -2,8 +2,8 @@
 import { siteConfig } from './lib/site-config'
 
 import { FiYoutube } from 'react-icons/fi'
-import { HiOutlineMail } from 'react-icons/hi';
-import { BiHomeAlt } from 'react-icons/bi';
+import { HiOutlineMail } from 'react-icons/hi'
+import { BiHomeAlt } from 'react-icons/bi'
 import { FaInstagram } from 'react-icons/fa'
 
 export default siteConfig({
@@ -76,6 +76,7 @@ export default siteConfig({
     '/klis-fortress': '2b9fb6ebc6d242e68b86c5a664791d75',
     '/island-hopping-split': '4d67942c858f4fd489b7dacae6266399',
     '/istanbul': '771c2d92561b44198f3f53ec28888728',
+    '/tromso': '15567ad471f480818c94e956de99122f',
   },
 
   // whether to use the default notion navigation style or a custom one with links to
