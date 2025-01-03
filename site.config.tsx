@@ -77,6 +77,7 @@ export default siteConfig({
     '/island-hopping-split': '4d67942c858f4fd489b7dacae6266399',
     '/istanbul': '771c2d92561b44198f3f53ec28888728',
     '/tromso': '15567ad471f480818c94e956de99122f',
+    '/arctic': '17067ad471f480cba90cfc139aa4164c',
   },
 
   // whether to use the default notion navigation style or a custom one with links to
