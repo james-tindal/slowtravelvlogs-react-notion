@@ -78,6 +78,7 @@ export default siteConfig({
     '/istanbul': '771c2d92561b44198f3f53ec28888728',
     '/tromso': '15567ad471f480818c94e956de99122f',
     '/arctic': '17067ad471f480cba90cfc139aa4164c',
+    '/dorset': '18967ad471f48060bae5d876529113ca',
   },
 
   // whether to use the default notion navigation style or a custom one with links to
