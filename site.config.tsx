@@ -80,6 +80,7 @@ export default siteConfig({
     '/arctic': '17067ad471f480cba90cfc139aa4164c',
     '/dorset': '18967ad471f48060bae5d876529113ca',
     '/podgorica': '1a067ad471f4807fbc1cc1277754a18b',
+    '/kotor': '1c567ad471f480aa955febaf122900f8',
   },
 
   // whether to use the default notion navigation style or a custom one with links to
